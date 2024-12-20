@@ -17,7 +17,7 @@ body {
     margin: 0 auto; /* Center the box horizontally */
     padding: 20px; /* Add padding around the content */
     box-sizing: border-box; /* Include padding in the element's total width and height */
-    background-color: rgba(211, 211, 211, 0.7); /* Light gray with 70% opacity */
+    background-color: rgba(211, 211, 211, 0.6); /* Light gray with 70% opacity */
     border-radius: 8px; /* Optional: adds rounded corners */
 }
 

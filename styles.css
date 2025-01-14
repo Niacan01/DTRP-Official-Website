@@ -1,6 +1,6 @@
 	body {
 		background:
-			linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), /* White overlay */ url('forest.png'); /* Background image */
+			linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), /* White overlay */ url('images/forest.png'); /* Background image */
 		background-size: cover;
 	}
 body { 

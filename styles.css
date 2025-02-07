@@ -1,40 +1,40 @@
-	body {
-		background:
-			linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), /* White overlay */ url('images/forest.png'); /* Background image */
-		background-size: cover;
-	}
-body { 
-	font-family: Arial, sans-serif; 
-	line-height: 1.8; 
-	} 
-	p { 
-	margin-bottom: 20px; 
-	}
+body {
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), /* White overlay */ 
+        url('images/forest.png'); /* Background image */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+}
+
+p {
+    margin-bottom: 20px;
+}
 
 /* CSS for Centered Content with Padding and Transparent Background */
 .centered-box {
-    max-width: 1200px; /* Maximum width of the content box */
-    margin: 0 auto; /* Center the box horizontally */
-    padding: 20px; /* Add padding around the content */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
-    background-color: rgba(211, 211, 211, 0.6); /* Light gray with 70% opacity */
-    border-radius: 8px; /* Optional: adds rounded corners */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(211, 211, 211, 0.6);
+    border-radius: 8px;
 }
 
 /* CSS for Centered Content Without Background */
 .centered-box-no-background {
-    max-width: 1200px; /* Maximum width of the content box */
-    margin: 0 auto; /* Center the box horizontally */
-    padding: 20px; /* Add padding around the content */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
-    border-radius: 8px; /* Optional: adds rounded corners */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
 
 /* Adjusting for Smaller Screens */
 @media (max-width: 768px) {
     .centered-box,
     .centered-box-no-background {
-        padding: 10px; /* Reduce padding on smaller screens */
+        padding: 10px;
     }
 }
 
@@ -42,6 +42,129 @@ body {
 @media (min-width: 1200px) {
     .centered-box,
     .centered-box-no-background {
-        max-width: 1000px; /* Adjust max-width for larger screens */
+        max-width: 1000px;
     }
+}
+
+/* Unvisited link */
+a:link {
+    color: darkslategray;
+}
+
+a:visited {
+    color: darkslategray;
+}
+
+a:hover {
+    color: purple;
+}
+
+h1 {
+    text-align: center; /* Center only the h1 element */
+}
+
+/* General navigation styles */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+    padding: 15px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    color: white;
+}
+
+/* Specific styles for dropdown menus */
+.menu {
+    display: flex;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #575757;
+}
+
+/* Ensure .dropdown a inherits correct background */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown li {
+    width: 100px;
+}
+
+.dropdown a {
+    padding: 10px 15px;
+    color: white; /* Ensure the text color is white */
+}
+
+.menu li:hover .dropdown {
+    display: block;
+}
+
+/* Additional styling for details summary and menu */
+details {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+details summary {
+    cursor: pointer;
+}
+
+details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    padding: 10px;
+}
+
+details li {
+    padding: 10px;
+}
+
+details a {
+    color: white;
+    text-decoration: none;
+}
+
+details a:hover {
+    background-color: #575757;
 }

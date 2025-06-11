@@ -168,3 +168,13 @@ details a {
 details a:hover {
     background-color: #575757;
 }
+
+.infobox {
+    font-family: 'Sacramento', cursive;
+    color: #b7b3bd;
+    padding: 10px;
+    background: #555353;
+    border-left: 4px solid #4b4e4c;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
